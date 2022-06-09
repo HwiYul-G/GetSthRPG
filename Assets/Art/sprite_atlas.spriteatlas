@@ -512,6 +512,16 @@ SpriteAtlas:
   - {fileID: 536419509007563539, guid: 3239f3050ed8f5f439e6e6c9ffd0114e, type: 3}
   - {fileID: 1036803682579554421, guid: 3239f3050ed8f5f439e6e6c9ffd0114e, type: 3}
   - {fileID: 5559694988392259305, guid: 3239f3050ed8f5f439e6e6c9ffd0114e, type: 3}
+  - {fileID: -7054820123952135176, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
+  - {fileID: -96796154962138083, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
+  - {fileID: -5581956015464806101, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
+  - {fileID: 4530623484691778272, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
+  - {fileID: 613435604629981061, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
+  - {fileID: 6530179738444782934, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
+  - {fileID: 3930011312167392660, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
+  - {fileID: -3656531271222932061, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
+  - {fileID: 3038985000587531000, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
+  - {fileID: -2661919970533589962, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
   - {fileID: -6388541885360120857, guid: a13fcbc512959f34485be67445aba45a, type: 3}
   - {fileID: -4095182051532446301, guid: a13fcbc512959f34485be67445aba45a, type: 3}
   - {fileID: 1014383420912058934, guid: a13fcbc512959f34485be67445aba45a, type: 3}
@@ -6611,6 +6621,16 @@ SpriteAtlas:
   - Inner_38
   - Inner_42
   - Inner_43
+  - sheet_5
+  - sheet_4
+  - sheet_7
+  - sheet_6
+  - sheet_1
+  - sheet_0
+  - sheet_3
+  - sheet_2
+  - sheet_9
+  - sheet_8
   - colony-buildings-ready_1651
   - colony-buildings-ready_120
   - colony-buildings-ready_1959
