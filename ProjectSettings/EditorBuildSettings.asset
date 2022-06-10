@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InCastleScene.unity
     guid: a5638e890f7fc444b9ce5041490f9762
+  - enabled: 1
+    path: Assets/Scenes/DungeonScene.unity
+    guid: f73954245d61bdd4fa71b228b6a86bb5
   m_configObjects: {}

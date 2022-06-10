@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PoliceManEnemy : Enemy
 {
-    private Rigidbody2D myRigidbody;
+    public Rigidbody2D myRigidbody;
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
@@ -25,25 +25,40 @@ public class PoliceManEnemy : Enemy
         CheckDistance();
     }
 
-    void CheckDistance()
+    public virtual void CheckDistance()
     {
-        if (Vector3.Distance(target.position, this.transform.position) <= chaseRadius 
-            && Vector3.Distance(target.position,this.transform.position)>attackRadius)
+        if(Vector3.Distance(target.position, this.transform.position) <= chaseRadius) // 추격범위 내이고
         {
-            if (currentState == EnemyState.idle || currentState == EnemyState.walk
-                && currentState != EnemyState.stagger)
+            if(Vector3.Distance(target.position, this.transform.position) > attackRadius) // 공격 범위 밖인 경우 쫓아와
+            {
+                if (currentState == EnemyState.idle || currentState == EnemyState.walk || currentState == EnemyState.attack && currentState != EnemyState.stagger)
+                {
+                    Vector3 temp = Vector3.MoveTowards(this.transform.position, target.position, moveSpeed * Time.deltaTime);
+
+                    changeAnim(temp - transform.position);
+                    myRigidbody.MovePosition(temp);
+
+                    ChangeState(EnemyState.walk);
+                    anim.SetBool("walking", true);
+                    anim.SetBool("attacking", false);
+                }
+            }
+            else // 공격범위 내인 경우
             {
                 Vector3 temp = Vector3.MoveTowards(this.transform.position, target.position, moveSpeed * Time.deltaTime);
 
                 changeAnim(temp - transform.position);
                 myRigidbody.MovePosition(temp);
-                ChangeState(EnemyState.walk);
-                anim.SetBool("walking", true);
+
+                ChangeState(EnemyState.attack);
+                anim.SetBool("attacking", true);
             }
         }
-        else if(Vector3.Distance(target.position, this.transform.position) > chaseRadius)
+        else if (Vector3.Distance(target.position, this.transform.position) > chaseRadius) // 추격 범위 밖인 경우
         {
+            
             anim.SetBool("walking", false);
+            anim.SetBool("attacking", false);
         }
     }
 
@@ -53,7 +68,7 @@ public class PoliceManEnemy : Enemy
         anim.SetFloat("moveY", setVector.y);
     }
 
-    private void changeAnim(Vector2 direction)
+    public void changeAnim(Vector2 direction)
     {
         if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
         {
@@ -79,7 +94,7 @@ public class PoliceManEnemy : Enemy
         }
     }
 
-    private void ChangeState(EnemyState newState)
+    public void ChangeState(EnemyState newState)
     {
         if(currentState != newState)
         {
