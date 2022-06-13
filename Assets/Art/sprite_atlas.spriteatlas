@@ -64,12 +64,14 @@ SpriteAtlas:
   - {fileID: -6156538738564848463, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: -3163061646288262330, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: 6465271316976419069, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
+  - {fileID: -8006292867793706052, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: -6188367394728635080, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: 3722172780092429670, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: -8888418204731768549, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: 5955781087917997448, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: -2336223751096622429, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: 8531737542734488527, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
+  - {fileID: -9051748682659619041, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: -2639854583086408205, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: 138822527552902627, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: 8694480088762194938, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
@@ -86,6 +88,7 @@ SpriteAtlas:
   - {fileID: 4810265859514842165, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: -5262628193677242302, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: -1955489751837219279, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
+  - {fileID: -3980494300707121562, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: -9193188169025097682, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: 1336440320741484319, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: 9171275872940762989, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
@@ -6290,12 +6293,14 @@ SpriteAtlas:
   - objects_88
   - objects_89
   - objects_53
+  - objects_84
   - objects_52
   - objects_68
   - objects_85
   - objects_99
   - objects_51
   - objects_69
+  - objects_86
   - objects_98
   - objects_50
   - objects_66
@@ -6312,6 +6317,7 @@ SpriteAtlas:
   - objects_94
   - objects_54
   - objects_62
+  - objects_83
   - objects_63
   - objects_8
   - objects_60
