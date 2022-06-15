@@ -49,6 +49,20 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: -5226010450988073647, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: 3886824488428826429, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: 5553966007552175125, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: 7291669002186980028, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: 3957641884665371023, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: -1820778394629667666, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: 2324588936072700796, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: -9134983481026892119, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: -4728184045950625339, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: 4884339224905577512, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: -275632677278881016, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: 1964184552216471374, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: 6310403012640857278, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
+  - {fileID: -2602719629936617034, guid: 4a738b70c5c7f0246ab81164fbaafa63, type: 3}
   - {fileID: -1986772863260763996, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: 5760800594879907098, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   - {fileID: 7597474578557255370, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
@@ -6278,6 +6292,20 @@ SpriteAtlas:
   - {fileID: -7361015689475581047, guid: 46231a7de8ae82547b6be1a7a7f86ef3, type: 3}
   - {fileID: -6474093322830008336, guid: 46231a7de8ae82547b6be1a7a7f86ef3, type: 3}
   m_PackedSpriteNamesToIndex:
+  - ui_big_pieces_9
+  - ui_big_pieces_8
+  - ui_big_pieces_1
+  - ui_big_pieces_0
+  - ui_big_pieces_3
+  - ui_big_pieces_2
+  - ui_big_pieces_5
+  - ui_big_pieces_4
+  - ui_big_pieces_7
+  - ui_big_pieces_6
+  - ui_big_pieces_10
+  - ui_big_pieces_11
+  - ui_big_pieces_12
+  - ui_big_pieces_13
   - objects_71
   - objects_70
   - objects_73

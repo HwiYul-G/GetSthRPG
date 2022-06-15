@@ -28,14 +28,11 @@ public class InventorySlot : MonoBehaviour
 
     }
 
-    void Start()
+    public void ClickedOn()
     {
-        
-    }
-
-
-    void Update()
-    {
-        
+        if (thisItem)
+        {
+            thisManager.SetupDescriptionAndButton(thisItem.itemDescription,thisItem.usable, thisItem);
+        }
     }
 }

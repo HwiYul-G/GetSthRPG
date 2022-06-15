@@ -17,5 +17,20 @@ MonoBehaviour:
     \uC544\uC774\uD15C"
   itemImage: {fileID: 6639657697291588988, guid: d4f6b8c2c78b2b248b09b306c92774f9, type: 3}
   numberHeld: 1
-  unsable: 0
+  usable: 1
   unique: 1
+  thisEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
