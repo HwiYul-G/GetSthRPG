@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Chalice
   m_EditorClassIdentifier: 
   itemName: "\uC131\uBC30"
-  itemDescription: "- \uCC3E\uC544\uC624\uB77C\uACE0 \uD55C \uAC83\uC774 \uC774\uAC83
-    \uAC19\uB2E4."
+  itemDescription: "\uC131\uBC30 - \uCC3E\uC544\uC624\uB77C\uACE0 \uD55C \uAC83\uC774
+    \uC774\uAC83 \uAC19\uB2E4."
   itemImage: {fileID: -7054820123952135176, guid: 2e91fb6518def82449ecac32eeb5959b, type: 3}
-  numberHeld: 1
+  numberHeld: 0
   usable: 0
-  unique: 0
+  unique: 1
   thisEvent:
     m_PersistentCalls:
       m_Calls: []

@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public FloatValue currentHealth;
     public Signal playerHealthSignal;
     public VectorValue startingPosition;
+    public bool gameOver;
+
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
         this.transform.position = startingPosition.initialValue;
+        gameOver = false;
     }
 
     // Update is called once per frame
@@ -48,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
         {
             UpdateAnimationAndMove();
         }
+
         
     }
 
@@ -88,10 +92,12 @@ public class PlayerMovement : MonoBehaviour
         playerHealthSignal.Raise();
         if (currentHealth.RuntimeValue > 0)
         {
+            gameOver = false;
             StartCoroutine(KnockCo(knockTime));
         }
         else
         {
+            gameOver = true;
             this.gameObject.SetActive(false);
         }
     }

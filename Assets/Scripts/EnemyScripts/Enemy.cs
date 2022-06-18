@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
         if(health <= 0)
         {
             DeathEffect();
-            this.gameObject.SetActive(false);
+            Destroy(this.gameObject);
         }
     }
 
