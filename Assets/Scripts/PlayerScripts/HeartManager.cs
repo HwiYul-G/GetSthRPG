@@ -5,12 +5,10 @@ using UnityEngine.UI;
 
 public class HeartManager : MonoBehaviour
 {
-    public Image[] hearts; //총 하트 개수 (현재는 3개)
-    // hp에 다라 하트 모양 변경을 위한 Sprite                       
-    public Sprite fullHeart; 
+    public Image[] hearts;
+    public Sprite fullHeart;
     public Sprite halfFullHeart;
     public Sprite emptyHeart;
-    // hp에 대한 숫자 처리를 위한 변수
     public FloatValue heartContainers;
     public FloatValue playerCurrentHealth;
 
@@ -19,8 +17,6 @@ public class HeartManager : MonoBehaviour
         InitHearts();
     }
 
-    // heart container에 든 하트의 수만큼 모양도 full로 피도 full로
-    // 그리고 우리 눈에 보이게 하는 함수
     public void InitHearts()
     {
         for(int i = 0; i<heartContainers.initialValue; i++)
@@ -29,7 +25,7 @@ public class HeartManager : MonoBehaviour
             hearts[i].sprite = fullHeart;
         }
     }
-    // 실시간 hp를 체크해서 하트를 반영하는 함수
+
     public void UpdateHearts()
     {
         float tempHealth = playerCurrentHealth.RuntimeValue / 2;

@@ -5,11 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
-    //Inventory 창 키거나 esc 버튼으로 menu창 킬때 
-    // 그 해당 패널이 setActive(true) 되게 하고
-    // 시간이 멈추게 하기 위한 처리
-    private bool isPaused; // 시간 멈춤에 대한 변수
-
+    private bool isPaused;
     //public GameObject pausePanel;
     public GameObject inventoryPanel;
     //public bool usingPausePanel;
@@ -33,7 +29,7 @@ public class PauseManager : MonoBehaviour
         
     }
 
-    // Z키 누르면 시간이 멈추고 인벤토리 창이 켜짐
+    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Z))
@@ -48,7 +44,7 @@ public class PauseManager : MonoBehaviour
             ShowMenuPanel();
         }
     }
-    // 게임 전체의 시간을 멈추고 풀고 하게 하는 함수
+
     public void ChangePause()
     {
         isPaused = !isPaused;
@@ -64,7 +60,7 @@ public class PauseManager : MonoBehaviour
             Time.timeScale = 1f;
         }
     }
-    // 인벤토리 페널이 보이게 하는 함수
+
     public void ShowInventoryPanel()
     {
         usingInventoryPanel = !usingInventoryPanel;
@@ -80,7 +76,6 @@ public class PauseManager : MonoBehaviour
         }
     }
 
-    // 메뉴 패널이 보이게 하는 함수
     public void ShowMenuPanel()
     {
         usingMenuPanel = !usingMenuPanel;
@@ -94,7 +89,7 @@ public class PauseManager : MonoBehaviour
             menuPanel.SetActive(false);
         }
     }
-    // 메뉴 패널에서 exit 버튼 누르면 나가게 하는 함수
+
     public void ExitGame()
     {
         Application.Quit();

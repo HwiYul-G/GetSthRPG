@@ -6,4 +6,14 @@ public class Powerup : MonoBehaviour
 {
     public Signal powerupSignal;
 
+    void Start()
+    {
+        
+    }
+
+
+    void Update()
+    {
+        
+    }
 }
