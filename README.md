@@ -1,4 +1,6 @@
 # Get 6 Chalices
+: Player가 경찰 enemy를 피해 6개의 성배를 찾아 나오는 게임.
+팩맨에서 아이디어를 많이 받음.
 
 I made it base on YouTube - KD, GoldMetal, Mister Taft Creates..
 Thanks for them
